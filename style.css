@@ -1,55 +1,90 @@
-header {
-    padding: 10px;
-    background-color: gray;
-    color: white;
-    width: 100vw;
-    height:6vh;
-}
-
-.banner {
-    background-color: black;
-    color: yellow;
-    height: 25vh;
-    width: 100vw;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.content {
-    padding: 10px;
-    height: 65vh;
-    width: 100vw;
-}
-
-.footer {
-    padding: 10px;
-    background-color: rgb(57, 57, 116);
-    height: 4vh;
-    width: 100vw;
-}
-
-img {
-    height: 150px;
-    width: 230px;
-}
-
-.paragraph {
-    width: 50%;
+html,body {
+    width: 100%;
     height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#navbar{
+    padding: 10px 10px 15px 10px;
+    background-color: #707070;
+    color: #FFFFFF;
+}
+
+#banner{
+    margin: 0px auto;
+    padding: 120px 0px;
+    background-color: #000000;
+    color: #E9E05F;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+}
+
+#footer{
+    margin-top: 20px;
+    padding: 6vh 0vh;
+    background-color: #3A3A56;
+}
+
+#name {
+    padding-left: 2vw;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 ul {
-    display: inline;
-    list-style-type: none;
+    list-style: none;
+    float: right;
 }
 
 li {
-    float: right;
-    padding: 5px;
+    margin: 10px;
+    display: inline;
+    text-align: right;
 }
 
-#Name {
-    font-size: 30px;
-    text-transform: uppercase;
+p {
+    float: left;
+    width: 240px;
+    height: 80px;
+    font-size: 11px;
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+img {
+    margin-left: 100px;
+    height: 100px;
+    width: 170px;
+    display: inline-block;
+    clear: left;
+}
+
+.blue {
+    padding: 80px;
+    margin-right: 70px;
+    background-color:#A4FFD7;
+    border-radius:15px;
+    display: inline-block;
+}
+
+.yellow {
+    padding: 75px 150px;
+    margin-right: 30px;
+    background-color: #FFC36C;
+    display: inline-block;
+}
+
+.content {
+    padding: 2% 0% 2% 20%;
+    min-width: 100%;
+    width: 100%;
+    overflow: hidden;
 }
