@@ -1,0 +1,55 @@
+header {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    width: 100vw;
+    height:6vh;
+}
+
+.banner {
+    background-color: black;
+    color: yellow;
+    height: 25vh;
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content {
+    padding: 10px;
+    height: 65vh;
+    width: 100vw;
+}
+
+.footer {
+    padding: 10px;
+    background-color: rgb(57, 57, 116);
+    height: 4vh;
+    width: 100vw;
+}
+
+img {
+    height: 150px;
+    width: 230px;
+}
+
+.paragraph {
+    width: 50%;
+    height: 100%;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+}
+
+li {
+    float: right;
+    padding: 5px;
+}
+
+#Name {
+    font-size: 30px;
+    text-transform: uppercase;
+}
